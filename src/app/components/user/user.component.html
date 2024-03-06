@@ -1,1 +1,6 @@
 <h1>Hello {{username}}<h1>
+@if(doesUserExists){
+    <p>Congratulations! You exists</p>
+}@else{
+    <p>Sorry you are a ghost</p>
+}

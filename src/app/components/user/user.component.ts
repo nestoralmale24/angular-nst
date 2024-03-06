@@ -10,4 +10,5 @@ import { Component } from '@angular/core';
 })
 export class UserComponent {
 username:string = "Nst"
+doesUserExists:boolean = true;
 }
