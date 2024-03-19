@@ -11,6 +11,5 @@ import { CommonModule } from '@angular/common';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular-nst';
-  city:string = "Saraqusta";
+  title = 'login';
 }
